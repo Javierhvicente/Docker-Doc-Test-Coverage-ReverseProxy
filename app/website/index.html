@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación del Proyecto - App Dockerizada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 900px;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 40px 20px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #3498db;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.15em;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        .sections {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .sections a {
+            text-decoration: none;
+            padding: 12px 20px;
+            color: #ffffff;
+            background-color: #3498db;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1em;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .sections a:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        footer a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>MyApp </h1>
+    <p>Este proyecto despliega una aplicación Java mediante una configuración Docker con compilación en varias etapas y un proxy inverso para asegurar la correcta distribución de los servicios.</p>
+    <p>Se trata de una aplicación de calculadora la cual es capaz de realizar operaciones básicas.</p>
+    <p>Navega por las diferentes secciones de la aplicación usando los enlaces a continuación:</p>
+
+    <div class="sections">
+        <a href="https://Myapp.com/doc" class="btn btn-primary" target="_blank">📚 Documentación del Proyecto</a>
+        <a href="https://Myapp.com/test" class="btn btn-primary" target="_blank">🧪 Informe de Tests Unitarios</a>
+        <a href="https://Myapp.com/coverage" class="btn btn-primary" target="_blank">📊 Informe de Cobertura de Código</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 MyApp Dockerizada | <a href="https://github.com/Javierhvicente" target="_blank">Javierhvicente</a> | Dominio: <a href="https://Myapp.com" target="_blank">Myapp.com</a> (con SSL/TLS)</p>
+    </footer>
+</div>
+</body>
+</html>
