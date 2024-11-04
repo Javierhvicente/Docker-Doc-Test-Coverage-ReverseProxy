@@ -28,7 +28,7 @@ services:
     container_name: test_server
     volumes:
       - test_data:/var/www/html/
-      - ./testDocd/sites-available:/etc/nginx/sites-available
+      - ./testDoc/sites-available:/etc/nginx/sites-available
     restart: always
     depends_on:
       - app
